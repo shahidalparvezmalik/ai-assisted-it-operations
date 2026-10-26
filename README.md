@@ -1,5 +1,7 @@
 # AI-Assisted IT Operations
 
+![AI-Assisted IT Operations banner](docs/images/ai-assisted-it-operations-banner.png)
+
 > A portfolio proof of concept exploring how AI can assist IT Operations teams with incident analysis, Service Desk workflows and operational decisions, while keeping people accountable for decisions and actions.
 
 **Author:** Shahid Al Parvez Malik  
@@ -60,7 +62,7 @@ Any future action execution should be separately gated by policy, risk and autho
 - `docs/LINKEDIN_SHORT_POST.md` — short LinkedIn promotion draft
 - `docs/LINKEDIN_GROUPS_POST.md` — LinkedIn group post draft
 - `docs/LINKEDIN_NETWORK_BLURB.md` — text for “Tell your network what your article is about”
-- `docs/images/` — banner image folder; the PNG is awaiting manual upload
+- `docs/images/ai-assisted-it-operations-banner.png` — project banner
 
 ## LinkedIn article
 
