@@ -7,7 +7,7 @@
 **Author:** Shahid Al Parvez Malik  
 **Focus:** IT Operations | ITSM | Service Delivery | Responsible AI
 
-> **Status:** Project in progress. This repository is a proof-of-concept workspace, not a production deployment. Do not use it with live services or sensitive operational data.
+> **Status:** Project in progress. This repository is currently documentation-led; it is not a production deployment. Do not use it with live services or sensitive operational data.
 
 ## Why this project
 
@@ -26,7 +26,7 @@ The proof of concept is intended to explore:
 - Human review and approval boundaries
 - Auditable records of recommendations and decisions
 
-Specific implemented capabilities will be documented here as they are built. No model, integration, performance result or production use is claimed at this stage.
+No model, integration, performance result or production use is claimed. Specific capabilities will be documented as they are built and verified.
 
 ## Proposed workflow
 
@@ -55,9 +55,16 @@ Any future action execution should be separately gated by policy, risk and autho
 - Do not perform changes to production systems from this proof of concept.
 - Measure usefulness through reviewable operational outcomes, not the number of generated recommendations.
 
+## Current implementation status
+
+This repository currently contains project and governance documentation, not runnable software. It has no AI model/provider integration, synthetic case dataset, automated tests or CI workflow yet. The next design gate is to choose a small scenario that is distinct from the existing [IT Service Desk automation](https://github.com/shahidalparvezmalik/it-service-desk-automation) and [AgenticOps](https://github.com/shahidalparvezmalik/agentic-it-operations) projects, then define its synthetic inputs and evaluation cases before implementation.
+
+See the [proposed operating model](docs/OPERATING_MODEL.md) for roles, controls and evaluation measures.
+
 ## Repository contents
 
 - `README.md` — project scope, principles and current status
+- `docs/OPERATING_MODEL.md` — proposed roles, case workflow and controls
 - `docs/LINKEDIN_ARTICLE.md` — companion article draft
 - `docs/LINKEDIN_SHORT_POST.md` — short LinkedIn promotion draft
 - `docs/LINKEDIN_GROUPS_POST.md` — LinkedIn group post draft
