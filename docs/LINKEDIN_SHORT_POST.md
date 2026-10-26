@@ -1,17 +1,15 @@
-# LinkedIn Short Post — IT Asset Lifecycle Management
+# LinkedIn Short Post — AI-Assisted IT Operations
 
 **Draft for review — not published.**
 
-IT Asset Management is more than maintaining an inventory of devices.
+A P1–P4 label can look decisive. But can an analyst see the evidence behind it?
 
-Asset ownership, warranty status, vendor support, data quality and refresh dates all provide valuable information—but the real challenge is turning those details into operational risk insights, lifecycle priorities and informed management decisions.
+I built a small Python demo using seven fabricated incident cases. It applies a fixed impact-and-urgency matrix, preserves the supplied evidence, flags missing context, and generates an assessment report and human-review template.
 
-In my latest article, I explore how IT Asset Lifecycle Management can help IT Operations leaders improve asset visibility, strengthen governance, and make better-informed refresh and procurement decisions.
+This is a transparent rules baseline—not an AI model. All seven cases require human review; the program connects to no live systems and executes zero actions.
 
-👉 **Read the full article:** https://www.linkedin.com/pulse/asset-management-more-than-inventory-turning-lifecycle-malik-5xnpc/
+👉 **Explore the project:** https://github.com/shahidalparvezmalik/ai-assisted-it-operations
 
-I’ve also developed a Python-based IT Asset Lifecycle Management proof of concept, demonstrating asset data-quality checks, explainable risk scoring, warranty monitoring, refresh planning and executive reporting using synthetic data.
+What information should be mandatory before an incident-priority suggestion is accepted?
 
-How is your organization turning IT asset data into better IT Operations and Service Delivery decisions?
-
-#ITAssetManagement #ITAM #ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ITGovernance #Automation #Python #IrishTech #IrishITTech #Ireland
+#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #HumanOversight #Automation #IrishTech #IrishITTech #Ireland

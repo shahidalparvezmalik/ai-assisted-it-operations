@@ -1,18 +1,15 @@
-# LinkedIn Group Post — IT Asset Lifecycle Management
+# LinkedIn Group Post — AI-Assisted IT Operations
 
 **Draft for review — not published.**
 
-**An asset register tells you what you own. Does it tell you what needs attention next?**
+**A priority label is only useful if an analyst can see the evidence behind it.**
 
-Support status, warranty, ownership, data quality and refresh dates all matter—but their value comes from turning those signals into clear priorities and better-informed decisions.
+I built a small, runnable incident-triage demo using seven fabricated cases. It validates the declared impact and urgency, applies a fixed priority matrix, keeps the supplied evidence visible, and flags missing context.
 
-In my latest article, I explore how IT Asset Lifecycle Management can strengthen visibility and governance:
+This is a rules-based baseline—not an AI implementation. Every suggestion requires human review. It uses no live systems and executes no actions.
 
-👉 **Read the full article:** https://www.linkedin.com/pulse/asset-management-more-than-inventory-turning-lifecycle-malik-5xnpc/
+👉 **Explore the code and run instructions:** https://github.com/shahidalparvezmalik/ai-assisted-it-operations
 
-I’ve also developed a Python-based proof of concept using synthetic data. It demonstrates data-quality checks, explainable risk scoring, warranty monitoring, refresh planning and executive reporting. It is read-only and does not connect to production systems or make purchasing decisions.
+**Join the discussion:** What information or evidence must be present before you accept a suggested incident priority?
 
-**Join the discussion:** Which lifecycle issue creates the greatest challenge in your organization—outdated inventory, unclear ownership, expired warranties, unsupported assets, or delayed refresh planning?
-
-#QuestionForGroup
-#ITAssetManagement #ITAM #ITInfrastructure #ITOperations #ITSM #ServiceDelivery #ITGovernance #Automation #Python #IrishTech #IrishITTech #Ireland
+#ITInfrastructure #ITOperations #ITSM #ServiceManagement #ResponsibleAI #HumanOversight #IrishTech #IrishITTech #Ireland

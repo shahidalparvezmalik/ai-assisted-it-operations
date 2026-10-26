@@ -1,11 +1,11 @@
 # LinkedIn Network Blurb
 
-IT Asset Management is more than maintaining an inventory of devices. The real value lies in turning asset lifecycle data into actionable decisions that improve operational visibility, risk management, warranty monitoring, and refresh planning.
+AI-Assisted IT Operations is more than assigning an incident priority. A useful suggestion should show the inputs and evidence behind it, make missing context visible, and leave the decision with a person.
 
-In my latest article, I explore how data-quality checks, explainable risk scoring, and lifecycle indicators can help IT Operations teams identify potential risks, prioritize reviews, and make better-informed decisions.
+I built a small rules-based demo using seven fabricated cases. It applies an explicit impact-and-urgency matrix, flags missing evidence, and requires human review for every suggestion.
 
-I also discuss why transparency, governance, and human oversight are essential when introducing automation into IT asset management.
+The demo does not use an AI model, connect to live systems, or execute actions. It is a practical way to examine where transparent decision support can help—and where human oversight must remain.
 
-I’d be interested in hearing from IT Operations and Service Delivery leaders: Which asset lifecycle signal is most often overlooked in your environment—support status, warranty, ownership, data quality, or refresh planning?
+What evidence do you need before accepting a suggested incident priority?
 
-#ITAssetManagement #ITAM #ITOperations #ITSM #ITInfrastructure #ITGovernance #Python #Automation #IrishTech #IrishITTech #Ireland
+#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #HumanOversight #Automation #IrishTech #IrishITTech #Ireland
