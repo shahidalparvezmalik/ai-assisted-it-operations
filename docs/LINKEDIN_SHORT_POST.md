@@ -1,17 +1,17 @@
-# LinkedIn Short Post — Infrastructure Health Check
+# LinkedIn Short Post — IT Asset Lifecycle Management
 
 **Draft for review — not published.**
 
-Infrastructure health is more than watching individual metrics. CPU, memory, disk capacity, DNS, network connectivity, and service state each provide a signal—but the real challenge is turning those signals into operational risk, service context, and a clear next step.
+IT Asset Management is more than maintaining an inventory of devices.
 
-In my article, **[Infrastructure Health Checks: Turning Technical Signals into Operational Risk](https://www.linkedin.com/pulse/infrastructure-health-checks-turning-technical-signals-malik-d5dgc/)**, I explore how a structured health-check approach can help IT Operations move from technical monitoring toward better service-management decisions.
+Asset ownership, warranty status, vendor support, data quality and refresh dates all provide valuable information—but the real challenge is turning those details into operational risk insights, lifecycle priorities and informed management decisions.
 
-The supporting [Infrastructure Health Check & IT Operations Diagnostics proof of concept](https://github.com/shahidalparvezmalik/infrastructure-health-check) demonstrates health checks, risk prioritization, management reporting, and an executive dashboard. Its sample report uses synthetic data; the local diagnostic runner is read-only and intended for the current host or authorized test targets.
+In my latest article, I explore how IT Asset Lifecycle Management can help IT Operations leaders improve asset visibility, strengthen governance, and make better-informed refresh and procurement decisions.
 
-The progression is simple:
+👉 **Read the full article:** https://www.linkedin.com/pulse/asset-management-more-than-inventory-turning-lifecycle-malik-5xnpc/
 
-**Technical signals → Health assessment → Risk prioritization → Management action**
+I’ve also developed a Python-based IT Asset Lifecycle Management proof of concept, demonstrating asset data-quality checks, explainable risk scoring, warranty monitoring, refresh planning and executive reporting using synthetic data.
 
-How is your organization turning infrastructure monitoring data into better IT Operations decisions?
+How is your organization turning IT asset data into better IT Operations and Service Delivery decisions?
 
-#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ITLeadership #Monitoring #Automation #InfrastructureManagement #IrishTech #IrishITTech #Ireland
+#ITAssetManagement #ITAM #ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ITGovernance #Automation #Python #IrishTech #IrishITTech #Ireland

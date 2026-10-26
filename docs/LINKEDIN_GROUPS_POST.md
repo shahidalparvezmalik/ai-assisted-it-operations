@@ -1,27 +1,18 @@
-# LinkedIn Group Post — AgenticOps
+# LinkedIn Group Post — IT Asset Lifecycle Management
 
 **Draft for review — not published.**
 
-IT Operations teams already have plenty of technical signals: infrastructure health, service availability, network and DNS events, incidents, alerts, and operational metrics.
+**An asset register tells you what you own. Does it tell you what needs attention next?**
 
-The harder part is turning those signals into context, risk, a useful recommendation, and a controlled next step.
+Support status, warranty, ownership, data quality and refresh dates all matter—but their value comes from turning those signals into clear priorities and better-informed decisions.
 
-One question for IT Operations leaders:
+In my latest article, I explore how IT Asset Lifecycle Management can strengthen visibility and governance:
 
-> **Are we using AI and operational data to improve decisions—or adding automation without defining what the system is allowed to do?**
+👉 **Read the full article:** https://www.linkedin.com/pulse/asset-management-more-than-inventory-turning-lifecycle-malik-5xnpc/
 
-I explored the move from AIOps toward AgenticOps in my article, **[From AIOps to AgenticOps: Turning IT Signals into Governed Action](https://www.linkedin.com/pulse/from-aiops-agenticops-turning-signals-governed-action-malik-7fkgc/)**.
+I’ve also developed a Python-based proof of concept using synthetic data. It demonstrates data-quality checks, explainable risk scoring, warranty monitoring, refresh planning and executive reporting. It is read-only and does not connect to production systems or make purchasing decisions.
 
-The accompanying [AgenticOps proof of concept on GitHub](https://github.com/shahidalparvezmalik/agentic-it-operations) demonstrates event correlation, deterministic diagnosis and risk assessment, policy checks, human-approval gates, simulated remediation, audit logging, and management-oriented dashboard views.
+**Join the discussion:** Which lifecycle issue creates the greatest challenge in your organization—outdated inventory, unclear ownership, expired warranties, unsupported assets, or delayed refresh planning?
 
-Its operating sequence is:
-
-**Observe → Correlate → Diagnose → Assess Risk → Recommend → Authorize → Simulate → Audit**
-
-A note on scope: this is a deterministic portfolio demo. It does not call an external AI model or API, connect to production systems, or execute real actions. The simulation makes the governance path visible without changing system state.
-
-The principle I keep coming back to is: **recommendation is not authority**. Policy, human oversight, and auditability need to sit between a suggested action and any real execution.
-
-**Where should the autonomy boundary sit in enterprise IT Operations: recommendation, human-approved action, or narrowly controlled low-risk automation?**
-
-#ITInfrastructure #ITOperations #ITSM #AIOps #AgenticAI #AgenticOps #ServiceManagement #Automation #ITLeadership #IrishTech #IrishITTech #Ireland
+#QuestionForGroup
+#ITAssetManagement #ITAM #ITInfrastructure #ITOperations #ITSM #ServiceDelivery #ITGovernance #Automation #Python #IrishTech #IrishITTech #Ireland

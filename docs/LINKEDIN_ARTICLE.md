@@ -1,70 +1,81 @@
-# Human Review by Design: A Rules-Based Baseline for IT Operations Triage
+# IT Asset Management Is More Than an Inventory: Turning Lifecycle Data into Operational Decisions
 
-**A priority suggestion is not a decision.** In IT Operations, useful decision support must show its evidence, make uncertainty visible, and leave accountability with people.
+IT asset management is often treated as a register of devices: asset IDs, models, serial numbers, purchase dates and assigned users.
 
-**By Shahid Al Parvez Malik**
+That information is necessary—but a list of assets does not, by itself, tell an organization which assets create the greatest operational risk, which warranties need attention, where ownership is unclear, or which replacements should be reviewed first.
 
-> Editorial source copy for review. Updating this file does not publish or change a LinkedIn article.
+The real value of IT Asset Lifecycle Management is turning inventory data into **actionable, explainable and governed decisions**.
 
-Incident triage often starts with incomplete information. A ticket may describe a symptom without showing its scope. An alert may be noisy. A suggested priority can look precise even when key context is missing.
+## The management questions that matter
 
-I built a small, runnable proof of concept to make one boundary concrete:
+A useful ITAM process should help teams answer questions such as:
 
-> **What can a tool suggest—and what must remain a human decision?**
+- Which critical assets are no longer supported by the vendor?
+- Which warranties are expired or approaching expiry?
+- Which assets have passed their planned refresh date?
+- Which records have missing owners, inconsistent lifecycle states or incomplete information?
+- Where should IT teams focus their review effort first?
+- What evidence is needed before approving a replacement, reassignment or retirement?
 
-## A small, transparent workflow
+These questions connect asset data with service continuity, risk management, procurement planning and financial oversight.
 
-The demo uses seven fabricated incident cases. It validates required fields, applies an explicit impact-and-urgency matrix, preserves the supplied evidence, and flags missing context rather than filling gaps with assumptions.
+## From inventory to lifecycle governance
 
-For each case, it produces a priority suggestion and review flags. The CLI writes an assessment report, a summary, and a blank template for a human reviewer.
+An asset's lifecycle extends beyond procurement and deployment. It includes ownership, operational use, maintenance, warranty and support monitoring, refresh planning, and controlled retirement.
 
-In the bundled sample run, the seven cases are distributed across the priority levels as **P1=1, P2=3, P3=1, and P4=2**. Every case is marked for human review. The program executes **zero actions**.
+A consistent lifecycle model makes responsibilities and evidence easier to define. For example:
 
-Those figures describe the sample run only. They do not measure accuracy, service improvement, or business impact.
+1. **Record and assign ownership.** Each in-service asset should have a clear business or technical owner.
+2. **Validate data quality.** Identify duplicate identifiers, missing fields and inconsistent lifecycle states before relying on reports.
+3. **Assess operational exposure.** Consider criticality, vendor support, warranty, condition and planned refresh dates together.
+4. **Prioritize review.** Use transparent rules to highlight records that may need attention.
+5. **Make governed decisions.** Require appropriate human review, approvals and audit evidence for procurement, reassignment and retirement.
 
-## Why the rules are visible
+Age alone should not determine whether an asset is replaced. A newer unsupported device may warrant earlier review than an older, low-criticality asset that remains supported and fit for purpose.
 
-The baseline uses the impact and urgency values supplied in the input. It does not infer them from the ticket summary, interpret free-text narratives, or call an AI model.
+## A practical proof of concept
 
-That is a deliberate first step. A reviewer can see the inputs behind a suggestion, inspect the evidence note, and challenge the result. Missing evidence stays visible. A priority suggestion is not approval, and a blank review template is not proof that a review took place.
+I have developed an **IT Asset Lifecycle Management** proof of concept in Python to demonstrate this approach using synthetic asset data.
 
-The workflow is simple:
+Repository: https://github.com/shahidalparvezmalik/it-asset-lifecycle-management
 
-**Synthetic case → Validate fields → Apply transparent rules → Show evidence and suggestion → Human review**
+The project includes:
 
-## What this demonstration does—and does not—show
+- A structured asset register with lifecycle, warranty, ownership, criticality and estimated replacement-cost fields
+- Data-quality checks for duplicate IDs, missing ownership, invalid lifecycle states and missing core fields
+- Explainable, rules-based risk scoring with review recommendations
+- Warranty and refresh-planning indicators
+- CSV assessment outputs and an executive-summary JSON report
+- Unit tests and a GitHub Actions workflow
 
-It demonstrates a deterministic CLI, a documented priority matrix, input validation, synthetic case assessments, reports, a human-review template, and unit tests.
+The risk score is a **review-priority indicator**, not a probability of failure or a financial valuation. The example thresholds are illustrative and should be calibrated to an organization's policies before operational use.
 
-It does **not** connect to an ITSM platform, read live infrastructure data, interpret ticket narratives, use an AI model, or remediate anything. The cases and evidence are fabricated. The matrix is an illustrative baseline, not an organizational severity policy. Tests verify code behavior, not the quality of real incident decisions.
+The project is deliberately read-only. It does not connect to production inventory, CMDB, ITSM, procurement or finance systems, and it does not execute remediation or make purchasing decisions. The bundled asset records and cost estimates are fictional.
 
-That distinction matters: a working script demonstrates software behavior, not production readiness or the value of an AI system.
+## Why explainability and governance matter
 
-## Where a future evaluation should begin
+A score is useful only when a team can understand why a record was flagged and what should happen next.
 
-Before considering a model or integration, an organization would need an analyst-reviewed evaluation set, clear data-handling boundaries, agreed measures, and an approval process. Measures might include evidence fidelity, missing-context detection, override patterns, and consistency across reviewed cases.
+For practical ITAM governance, recommendations should be traceable to identifiable factors, thresholds should be documented, and exceptions should be reviewable. Any production implementation should use authoritative data sources, protect sensitive information, and maintain appropriate approval and audit controls.
 
-Any future model, external system, or real-data work would require a separate design and evaluation. It is not part of this proof of concept.
+Automation can reduce repetitive checking and make reporting more consistent. It should support accountable decisions—not replace them.
 
-## Try the project
+## From better asset data to better decisions
 
-The repository includes the code, seven sample cases, tests, scoring notes, and run instructions:
+A mature asset lifecycle practice can help IT Operations and management improve visibility into support exposure, data quality, refresh priorities and planning assumptions. It also creates a stronger foundation for connecting assets to services and understanding potential business impact.
 
-[AI-Assisted IT Operations on GitHub](https://github.com/shahidalparvezmalik/ai-assisted-it-operations)
+The objective is not simply to maintain a more complete inventory. It is to build a dependable view of **what the organization owns, who is accountable, what needs attention, and why**.
 
-Requires Python 3.10 or later:
-
-```bash
-python -m unittest discover -v
-python -m opsassist.cli --input data/cases.csv --output-dir reports
-```
-
-This is a review-only baseline: transparent rules, visible evidence, human review, and no action execution.
+I would be interested in hearing how other IT Operations and Service Delivery leaders approach operational KPI reporting.
 
 ---
 
-**About the author:** Shahid Al Parvez Malik is a Senior IT Infrastructure & Service Delivery Manager with 20+ years of professional IT experience across infrastructure, IT Operations, ITSM, service delivery, systems administration, networking, technical support, procurement, and vendor management.
+## About the Author
 
-[GitHub profile](https://github.com/shahidalparvezmalik) · [Professional portfolio](https://shahidalparvezmalik.com/)
+**Shahid Al Parvez Malik** is a Senior IT Infrastructure & Service Delivery Manager specializing in enterprise IT operations, ITSM, infrastructure, procurement and technology management.
 
-#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #HumanOversight #Automation #IrishTech #IrishITTech #Ireland
+**Professional portfolio:** [https://shahidalparvezmalik.com/](https://shahidalparvezmalik.com/)
+
+**Project:** [IT Asset Lifecycle Management on GitHub](https://github.com/shahidalparvezmalik/it-asset-lifecycle-management)
+
+#ITAssetManagement #ITAM #ITOperations #ITSM #ITInfrastructure #ITGovernance #Python #Automation #IrishTech #IrishITTech #Ireland
