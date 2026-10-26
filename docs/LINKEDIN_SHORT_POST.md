@@ -1,13 +1,9 @@
 # LinkedIn short post
 
-AI can help IT Operations teams summarize incidents and surface useful context. But a recommendation needs evidence, risk context and human review before anyone acts on it.
+I built a small, runnable IT Operations demo using seven fabricated cases. It applies a fixed impact/urgency matrix, keeps the supplied evidence visible, and creates a human-review template.
 
-I’m exploring this through an AI-Assisted IT Operations proof of concept focused on incident analysis, Service Desk workflows and operational decisions with appropriate human oversight. It is in progress; it is not a production deployment.
+The current slice is rules-based, not an AI implementation. It uses no live systems and executes no actions. All seven cases require human review.
 
-Read the article: **Add the published LinkedIn article URL here.**
+Code and run instructions: https://github.com/shahidalparvezmalik/ai-assisted-it-operations
 
-Explore the project: https://github.com/shahidalparvezmalik/ai-assisted-it-operations
-
-How does your team decide which operational tasks are suitable for AI assistance?
-
-#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ITLeadership #ResponsibleAI #Automation #IrishTech #IrishITTech #Ireland
+#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #HumanOversight #IrishTech #IrishITTech #Ireland
