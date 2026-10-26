@@ -1,5 +1,5 @@
 # LinkedIn article share blurb
 
-AI can support IT Operations by summarizing incidents and surfacing relevant context. This article explores how to use that assistance while keeping evidence visible, people accountable and consequential actions under appropriate human oversight.
+I built a small, runnable incident-triage demo with fabricated cases. It uses a fixed rules matrix, keeps evidence visible, and requires a human review for every suggestion. This first slice is not an AI implementation, connects to no live systems, and executes no actions. The article explains what the demo does and where its limits are.
 
-#ITOperations #ITSM #ResponsibleAI #IrishTech #IrishITTech #Ireland
+#ITOperations #ITSM #HumanOversight #IrishTech #IrishITTech #Ireland
