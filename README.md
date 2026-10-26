@@ -57,12 +57,16 @@ Any future action execution should be separately gated by policy, risk and autho
 
 - `README.md` — project scope, principles and current status
 - `docs/LINKEDIN_ARTICLE.md` — companion article draft
-
-Additional design notes, examples and implementation details will be added as they are developed and verified.
+- `docs/LINKEDIN_SHORT_POST.md` — short LinkedIn promotion draft
+- `docs/LINKEDIN_GROUPS_POST.md` — LinkedIn group post draft
+- `docs/LINKEDIN_NETWORK_BLURB.md` — text for “Tell your network what your article is about”
+- `docs/images/` — banner image folder; the PNG is awaiting manual upload
 
 ## LinkedIn article
 
 [AI-Assisted IT Operations: Keeping Human Judgment in the Loop](docs/LINKEDIN_ARTICLE.md)
+
+The article is a draft saved in this repository. It has not yet been published on LinkedIn. Add the article's LinkedIn URL to the short and group post drafts after publishing.
 
 ## About the author
 
@@ -71,6 +75,10 @@ Shahid Al Parvez Malik is a Senior IT Infrastructure & Service Delivery Manager 
 - GitHub profile: https://github.com/shahidalparvezmalik
 - Professional portfolio: https://shahidalparvezmalik.com/
 
-## Topics
+## Suggested GitHub topics
 
-`ai-assisted-operations` `it-operations` `itsm` `service-desk` `responsible-ai` `human-in-the-loop` `proof-of-concept`
+`ai-assisted-it-operations` `it-operations` `itsm` `service-desk` `incident-management` `responsible-ai` `human-in-the-loop` `automation`
+
+## Hashtags
+
+Use where suitable in LinkedIn copy: #IrishTech #IrishITTech #Ireland
