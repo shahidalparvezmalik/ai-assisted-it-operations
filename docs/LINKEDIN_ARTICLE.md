@@ -48,4 +48,4 @@ Shahid Al Parvez Malik is a Senior IT Infrastructure & Service Delivery Manager 
 GitHub: https://github.com/shahidalparvezmalik  
 Professional portfolio: https://shahidalparvezmalik.com/
 
-#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #Automation #HumanOversight #IrishTech #Ireland
+#ITOperations #ITInfrastructure #ITSM #ServiceDelivery #ResponsibleAI #Automation #HumanOversight #IrishTech #IrishITTech #Ireland
