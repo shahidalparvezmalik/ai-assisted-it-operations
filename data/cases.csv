@@ -1,0 +1,8 @@
+case_id,created_at,service,summary,impact,urgency,evidence
+CASE-001,2026-10-26T09:00:00Z,Identity,Several users report sign-in failures,high,high,Synthetic signal: authentication errors increased
+CASE-002,2026-10-26T09:15:00Z,Email,Some users report delayed message delivery,high,medium,Synthetic signal: delivery queue is above its illustrative baseline
+CASE-003,2026-10-26T09:30:00Z,Network,One office reports intermittent connectivity,medium,high,Synthetic signal: packet loss observed in the sample scenario
+CASE-004,2026-10-26T10:00:00Z,Collaboration,File preview is slow for a small group,medium,medium,Synthetic signal: no confirmed outage in the sample scenario
+CASE-005,2026-10-26T10:30:00Z,Endpoint,One device has a delayed update,low,medium,Synthetic signal: issue is limited to one synthetic case
+CASE-006,2026-10-26T11:00:00Z,Knowledge Base,User requests an article update,low,low,
+CASE-007,2026-10-26T11:30:00Z,Remote Access,Remote login reports are increasing,medium,high,Synthetic signal: simulated login failures rose in the scenario
