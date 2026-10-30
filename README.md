@@ -23,7 +23,7 @@ Requires Python 3.10 or later. No third-party packages are needed.
 ```bash
 python -m venv .venv
 # Windows PowerShell:
-.\.venv\Scripts\Activate.ps1
+.\\.venv\\Scripts\\Activate.ps1
 # macOS/Linux:
 # source .venv/bin/activate
 
@@ -140,7 +140,7 @@ The unit suite and seven-case CLI run have passed locally. GitHub Actions is **n
 
 ## Related article
 
-[AI-assisted IT operations: a small rules-based demo](docs/LINKEDIN_ARTICLE.md) is a draft in this repository and has not been published on LinkedIn. Promotional drafts are kept as separate files under `docs/`.
+[AI-Assisted IT Operations: A Small Rules-Based Demo](https://www.linkedin.com/pulse/ai-assisted-operations-small-rules-based-demo-shahid-al-parvez-malik-synzc/) was published on LinkedIn on 27 October 2026. The article source copy is kept in this repository at [`docs/LINKEDIN_ARTICLE.md`](docs/LINKEDIN_ARTICLE.md) (editorial source copy — editing it does not change the published article). Promotional drafts are kept as separate files under `docs/`.
 
 ## Disclaimer
 
