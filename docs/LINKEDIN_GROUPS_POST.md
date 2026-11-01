@@ -1,6 +1,6 @@
 # LinkedIn Group Post — AI-Assisted IT Operations
 
-**Draft status:** The article is not published yet. Add its LinkedIn URL after publication.
+**Status:** Article published on LinkedIn on 27 October 2026.
 
 **A priority label is only useful if an analyst can see the evidence behind it.**
 
