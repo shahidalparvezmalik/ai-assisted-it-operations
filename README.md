@@ -112,10 +112,6 @@ The unit suite and seven-case CLI run have passed locally. GitHub Actions is **n
 │   ├── DATA_DICTIONARY.md
 │   ├── OPERATING_MODEL.md
 │   ├── SCORING_MODEL.md
-│   ├── LINKEDIN_ARTICLE.md
-│   ├── LINKEDIN_SHORT_POST.md
-│   ├── LINKEDIN_GROUPS_POST.md
-│   ├── LINKEDIN_NETWORK_BLURB.md
 │   └── images/ai-assisted-it-operations-banner.png
 ├── opsassist/
 │   ├── __init__.py
@@ -138,9 +134,9 @@ The unit suite and seven-case CLI run have passed locally. GitHub Actions is **n
 - Consider read-only integrations only after scope, authorization, privacy, and evaluation requirements are agreed.
 - Keep live action execution outside this proof of concept unless a separately approved design establishes policy gates and audit controls.
 
-## Related article
+## Published LinkedIn article
 
-[AI-Assisted IT Operations: A Small Rules-Based Demo](https://www.linkedin.com/pulse/ai-assisted-operations-small-rules-based-demo-shahid-al-parvez-malik-synzc/) was published on LinkedIn on 27 October 2026. The article source copy is kept in this repository at [`docs/LINKEDIN_ARTICLE.md`](docs/LINKEDIN_ARTICLE.md) (editorial source copy — editing it does not change the published article). Promotional drafts are kept as separate files under `docs/`.
+[AI-Assisted IT Operations: A Small Rules-Based Demo](https://www.linkedin.com/pulse/ai-assisted-operations-small-rules-based-demo-shahid-al-parvez-malik-synzc/) (published 27 October 2026)
 
 ## Disclaimer
 
